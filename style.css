@@ -1,0 +1,270 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 62.5%;
+  font-family: "Roboto", sans-serif;
+  scroll-behavior: smooth;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: rgba(0, 0, 0, 0.056);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin: 0 1.4rem;
+}
+
+.logo-image {
+  width: 9rem;
+  max-width: 9rem;
+  height: 9rem;
+  max-height: 9rem;
+  margin-left: 7rem;
+  border-radius: 0.6rem;
+}
+
+.menu {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 3rem;
+  margin: 4rem 6rem 6rem 0;
+}
+
+a {
+  text-decoration: none;
+  font-size: 2.6rem;
+  color: rgba(27, 26, 26, 0.876);
+}
+
+.menu a:hover {
+  text-decoration: underline;
+  color: rgba(15, 14, 14, 0.5);
+}
+
+/* Main */
+.container-main {
+  display: flex;
+  width: 100%;
+  padding: 2rem;
+}
+
+.main-image {
+  width: auto;
+  max-width: 70rem;
+  height: auto;
+  max-height: 56rem;
+  margin-left: 7rem;
+  border-radius: 0.6rem;
+}
+
+.section-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+  gap: 1rem;
+  padding-top: 2rem;
+  width: 100%;
+  margin: 0 4rem;
+}
+
+h1 {
+  font-size: 6rem;
+  line-height: 2;
+}
+
+h2 {
+  font-size: 4.5rem;
+  width: auto;
+  max-width: 100%;
+}
+
+.section-main p {
+  margin-top: 3rem;
+  font-size: 2.4rem;
+  width: 100%;
+  max-width: 68rem;
+  text-align: justify;
+}
+
+/* Section Services */
+
+.container-section {
+  display: flex;
+  gap: 5rem;
+  width: 100%;
+  padding: 2rem;
+}
+
+.section-services {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin: 7rem 0rem 7rem 7rem;
+  width: 100%;
+}
+
+.section-services p {
+  margin-top: 3rem;
+  font-size: 2.4rem;
+  width: 68rem;
+  align-self: center;
+}
+
+ul {
+  font-size: 3.8rem;
+  margin-left: 10rem;
+  width: 100%;
+}
+
+li {
+  line-height: 1.6;
+}
+
+.services-image {
+  width: auto;
+  max-width: 70rem;
+  height: auto;
+  max-height: 56rem;
+  margin: 7rem 7rem 0 0;
+  border-radius: 0.6rem;
+}
+
+/* Footer */
+.footer {
+  display: grid;
+  grid-template-columns: 0.3fr 1fr 1fr;
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-areas:
+    "logo contact contact"
+    "logo contact contact"
+    "logo more-informations more-informations";
+  height: 26rem;
+  max-height: 30rem;
+  width: 100%;
+}
+
+.logo-div {
+  display: flex;
+  grid-area: logo;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  max-height: 100%;
+  margin-left: 1rem;
+}
+
+.logo-footer {
+  width: auto;
+  max-width: 12rem;
+  height: auto;
+  max-height: 12rem;
+  border-radius: 0.6rem;
+  margin-right: 2rem;
+}
+
+.contact {
+  display: flex;
+  grid-area: contact;
+  align-items: stretch;
+  width: auto;
+  max-width: 95%;
+}
+
+.phones,
+.address {
+  grid-area: phones;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: space-around;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 1.4rem;
+  padding: 2rem;
+}
+
+.phones {
+  width: 60%;
+  max-width: 100%;
+}
+
+.phones p,
+.phones span,
+.phones a,
+.address p {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.phones h3 {
+  font-size: 2.4rem;
+  align-self: center;
+}
+
+.phones a:hover {
+  text-decoration: underline;
+}
+.address {
+  grid-area: address;
+  align-items: center;
+  width: 100%;
+  max-width: 100%;
+}
+
+.address h3 {
+  font-size: 2.4rem;
+  align-self: center;
+}
+
+.more-informations {
+  grid-area: more-informations;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.more-informations p {
+  font-size: 2rem;
+}
+
+.more-informations a {
+  font-size: 1.8rem;
+  color: #000;
+  font-weight: 600;
+}
+
+.more-informations a:hover {
+  text-decoration: underline;
+  color: #000;
+}
+
+.more-informations hr {
+  width: 90%; /* Define a largura do traço */
+  height: 1px;
+  background-color: rgba(8, 1, 50, 0.193); /* Define a cor do traço */
+}
+
+/* Arrumar os responsivos */

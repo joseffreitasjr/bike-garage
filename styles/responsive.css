@@ -1,0 +1,681 @@
+/* Responsivo largura máxima 1280px */
+
+@media (max-width: 1280px) {
+  .main-image {
+    max-width: 60rem;
+    max-height: 46rem;
+  }
+
+  /* Main */
+
+  .section-main {
+    align-items: flex-start;
+  }
+
+  h1 {
+    font-size: 5rem;
+  }
+
+  h2 {
+    font-size: 3.5rem;
+  }
+
+  .section-main h2 {
+    text-align: left;
+  }
+
+  .section-main p {
+    margin-top: 2rem;
+    max-width: 58rem;
+    line-height: 1.4;
+    text-align: left;
+  }
+
+  /* Section Services */
+  ul {
+    margin-left: 6rem;
+  }
+
+  .services-image {
+    max-width: 60rem;
+    max-height: 46rem;
+  }
+
+  .section-services p {
+    width: 58rem;
+    text-align: justify;
+  }
+
+  /* Footer */
+
+  /* -- phones -- */
+  .phones p:first-child {
+    font-size: 2.2rem;
+  }
+  /*  -- address -- */
+  .address h3 {
+    font-size: 2.2rem;
+  }
+
+  /* More Informations */
+
+  .more-informations p {
+    font-size: 1.6rem;
+  }
+}
+
+/* Responsivo largura máxima 1120px */
+@media (max-width: 1120px) {
+  /* Menu */
+  .menu {
+    gap: 2.6rem;
+  }
+
+  a {
+    font-size: 2.8rem;
+  }
+
+  /* Main */
+  .container-main {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "section-main"
+      "main-image";
+    align-items: center;
+    justify-items: center;
+    gap: 5rem;
+    margin: 0rem 5rem;
+  }
+
+  .main-image {
+    grid-area: main-image;
+    width: auto;
+    max-width: 80rem;
+    height: auto;
+    max-height: 50rem;
+    margin: 0 5rem;
+  }
+
+  .section-main {
+    grid-area: section-main;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 2rem;
+    width: auto;
+    max-width: 60%;
+  }
+
+  .section-main h2 {
+    text-align: center;
+  }
+
+  .section-main p {
+    margin-top: 2rem;
+    font-size: 2.4rem;
+    width: auto;
+    max-width: 78rem;
+    align-self: center;
+    text-align: justify;
+  }
+
+  h1 {
+    font-size: 5rem;
+  }
+
+  h2 {
+    font-size: 4rem;
+    margin: 2rem 0;
+  }
+
+  /* ---------------------------------------- */
+  /* Section Services */
+
+  .container-section {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "section-services"
+      "services-image";
+    align-items: center;
+    justify-items: center;
+    gap: 5rem;
+    margin: 0rem 5rem;
+    padding: 4rem;
+  }
+
+  .section-services {
+    grid-area: section-services;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 3rem 5rem 0rem 5rem;
+    width: auto;
+    max-width: 60%;
+  }
+
+  .section-services p {
+    margin-top: -1rem;
+  }
+
+  .services-image {
+    width: auto;
+    max-width: 80rem;
+    height: auto;
+    max-height: 56rem;
+    margin: 0 5rem;
+  }
+
+  ul {
+    padding-bottom: 2rem;
+  }
+
+  li {
+    line-height: 1.2;
+  }
+
+  /* Footer */
+
+  /* -- Phones -- */
+
+  .phones p,
+  .phones span,
+  .phones a {
+    font-size: 1.8rem;
+  }
+
+  /* -- Address */
+  .address h3 {
+    font-weight: 600;
+  }
+}
+
+/* Responsivo largura máxima 1024px */
+@media (max-width: 1024px) {
+  /* Section Services */
+
+  .section-services p {
+    width: 88%;
+  }
+
+  /* Footer */
+  .footer {
+    padding: 2rem;
+  }
+
+  .address {
+    width: auto;
+    max-width: 80%;
+    text-align: center;
+  }
+}
+/* Responsivo largura máxima 975px */
+@media (max-width: 975px) {
+  .address p {
+    line-height: 1.6;
+  }
+}
+
+@media (max-width: 896px) {
+  .section-main {
+    max-width: 70%;
+  }
+
+  h1 {
+    font-size: 4.8rem;
+  }
+
+  h2 {
+    font-size: 3.8rem;
+  }
+
+  .section-main p {
+    font-size: 2.2rem;
+    max-width: 50rem;
+  }
+
+  .main-image {
+    max-width: 70rem;
+    max-height: 40rem;
+  }
+
+  .services-image {
+    max-width: 70rem;
+    max-height: 40rem;
+  }
+
+  .logo-footer {
+    max-width: 8rem;
+    max-height: 8rem;
+  }
+
+  .contact {
+    max-width: 100%;
+  }
+
+  .phones p,
+  .phones span,
+  .phones a,
+  .address p {
+    font-size: 1.6rem;
+  }
+
+  .phones h3 {
+    font-size: 2rem;
+  }
+}
+
+/* Responsivo largura máxima 846px */
+@media (max-width: 846px) {
+  .section-main {
+    width: auto;
+    max-width: 70%;
+  }
+
+  h1 {
+    font-size: 4.4rem;
+    line-height: 1.6;
+  }
+
+  h2 {
+    font-size: 3rem;
+    max-width: 96%;
+  }
+
+  .section-main p {
+    font-size: 2.4rem;
+    width: auto;
+    max-width: 90%;
+    text-align: center;
+  }
+
+  ul {
+    margin-left: 5rem;
+  }
+  .footer {
+    grid-template-areas:
+      "contact contact contact"
+      "contact contact contact"
+      "more-informations more-informations more-informations";
+  }
+
+  .logo-footer {
+    display: none;
+  }
+
+  .contact {
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    max-width: 100%;
+  }
+
+  .phones p,
+  .phones span,
+  .phones a,
+  .address p {
+    font-size: 1.6rem;
+    font-weight: 500;
+  }
+
+  .phones {
+    width: 100%;
+  }
+
+  .address {
+    width: 100%;
+  }
+}
+
+/* Responsivo largura máxima 834px */
+
+@media (max-width: 834px) {
+  header {
+    justify-content: center;
+    gap: 4rem;
+  }
+
+  .logo-image {
+    display: none;
+  }
+
+  .menu {
+    gap: 8rem;
+    margin: 6rem;
+  }
+
+  a {
+    font-size: 2.6rem;
+    font-weight: 600;
+  }
+
+  .main-image {
+    width: auto;
+    max-width: 56rem;
+    height: auto;
+    max-height: 40rem;
+  }
+
+  h1 {
+    font-size: 4.2rem;
+  }
+
+  h2 {
+    font-size: 2.8rem;
+  }
+
+  .section-main p {
+    margin-top: 1rem;
+    font-size: 2rem;
+    width: 60rem;
+    align-self: center;
+    text-align: justify;
+  }
+
+  .services-image {
+    width: auto;
+    max-width: 56rem;
+    height: auto;
+    max-height: 40rem;
+  }
+
+  .section-services p {
+    font-size: 2.2rem;
+    text-align: left;
+  }
+
+  ul {
+    font-size: 3.4rem;
+    margin-left: 5.2rem;
+  }
+
+  .address {
+    width: 90%;
+  }
+
+  .address h3 {
+    font-size: 2.4rem;
+    font-weight: 400;
+  }
+
+  .more-informations p {
+    font-size: 1.8rem;
+  }
+}
+
+/* Responsivo largura máxima 800px */
+
+@media (max-width: 800px) {
+  .contact {
+    align-items: stretch;
+  }
+
+  .more-informations p {
+    font-size: 1.6rem;
+  }
+}
+
+/* Responsivo largura máxima 768px */
+@media (max-width: 768px) {
+  .main-image {
+    width: auto;
+    max-width: 68rem;
+    height: auto;
+    max-height: 34rem;
+  }
+
+  .section-main {
+    width: auto;
+    max-width: 60%;
+  }
+
+  h1 {
+    font-size: 4rem;
+  }
+
+  h2 {
+    font-size: 2.6rem;
+  }
+
+  .section-main p {
+    text-align: center;
+  }
+
+  .services-image {
+    width: auto;
+    max-width: 62rem;
+    height: auto;
+    max-height: 34rem;
+  }
+
+  ul {
+    margin-left: 4.8rem;
+  }
+
+  .address {
+    width: 100%;
+  }
+
+  .more-informations p {
+    font-size: 1.4rem;
+  }
+}
+
+/* Responsivo largura máxima 667px */
+@media (max-width: 667px) {
+  .more-informations a {
+    font-size: 1.4rem;
+  }
+}
+
+/* Responsivo largura máxima 640px */
+@media (max-width: 640px) {
+  .container-main {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .section-main {
+    max-width: 60%;
+  }
+
+  .section-services {
+    max-width: 80%;
+  }
+
+  .contact {
+    align-items: stretch;
+  }
+
+  .phones h3,
+  .address h3 {
+    font-size: 1.8rem;
+  }
+
+  .phones p,
+  .address p {
+    font-size: 1.4rem;
+  }
+
+  .more-informations a {
+    font-size: 1.2rem;
+  }
+}
+
+/* Responsivo largura máxima 470px */
+@media (max-width: 470px) {
+  header {
+    justify-content: center;
+  }
+
+  .menu {
+    gap: 4rem;
+    margin: 4rem;
+    width: 100%;
+    margin: 4rem 6rem 4rem 2rem;
+    justify-content: center;
+  }
+
+  .menu a {
+    font-size: 2.2rem;
+  }
+
+  .section-main {
+    margin: 0 1.4rem;
+  }
+
+  h1 {
+    font-size: 3.2rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  .section-main p {
+    font-size: 1.6rem;
+    text-align: justify;
+  }
+
+  .main-image {
+    max-width: 50rem;
+    max-height: 24rem;
+  }
+
+  .container-section {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .section-services {
+    width: 90%;
+    max-width: 100%;
+  }
+
+  .section-services p {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  ul {
+    font-size: 3rem;
+  }
+
+  .services-image {
+    display: none;
+  }
+
+  .footer {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas:
+      "contact"
+      "contact"
+      "more-informations";
+    height: auto;
+    max-height: 50rem;
+  }
+
+  .contact {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    height: auto;
+    max-height: 42rem;
+  }
+
+  .phones h3,
+  .address h3 {
+    font-size: 1.6rem;
+  }
+
+  .phones p,
+  .address p {
+    font-size: 1.2rem;
+  }
+
+  .address {
+    max-width: 100%;
+  }
+
+  .address h3 {
+    font-size: 2rem;
+    font-weight: 600;
+  }
+
+  .address p {
+    font-size: 1.4rem;
+  }
+
+  .more-informations {
+    text-align: center;
+  }
+}
+
+/* Responsivo largura máxima 414px */
+@media (max-width: 414px) {
+  .section-main {
+    width: 50%;
+  }
+
+  .section-main p {
+    text-align: center;
+  }
+
+  .section-services {
+    width: 100%;
+  }
+
+  .section-services p {
+    font-size: 1.8rem;
+    text-align: left;
+  }
+
+  ul {
+    font-size: 2.8rem;
+  }
+  
+  .phones p,
+  .phones span,
+  .phones a,
+  .address p {
+    font-size: 1.8rem;
+  }
+
+  .more-informations p,
+  .more-informations a {
+    font-size: 1.4rem;
+    text-align: center;
+    width: 98%;
+  }
+}
+
+@media (max-width: 393px) {
+  .section-services p {
+    text-align: center;
+  }
+}
+
+@media(max-width: 375px) {
+ 
+
+  .section-services p,
+  .phones p,
+  .phones span,
+  .phones a,
+  .address p {
+    font-size: 1.6rem;
+  }
+
+  .section-services p {
+    text-align: left;
+  }
+
+  ul {
+    font-size: 2.4rem;
+    margin-left: 3.6rem;
+  }
+}
+
+
+/* FAZER A PARTIR DAQUI PARA BAIXO */
+/* Responsivo largura máxima 581px e 480px */
