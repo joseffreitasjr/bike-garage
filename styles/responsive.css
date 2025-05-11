@@ -665,6 +665,48 @@
   }
 }
 
+@media(max-width: 320px) {
+  .menu {
+    gap: 2rem;
+  }
+
+  a {
+    font-size: 1rem;
+  }
+
+  .section-main {
+    max-width: 48%;
+    margin: 0;
+  }
+
+  .section-main p {
+    font-size: 1.4rem;
+  }
+
+  h1 {
+    font-size: 2.6rem;
+  }
+
+  h2 {
+    font-size: 1.8rem
+  }
+
+  .section-services {
+    max-width: 100%;
+  }
+
+  .phones p,
+  .phones span,
+  .address p {
+    font-size: 1.6rem;
+  }
+
+  .phones p {
+    text-align: center;
+  }
+
+}
+
 
 /* FAZER A PARTIR DAQUI PARA BAIXO */
 /* Responsivo largura máxima 581px e 480px */
