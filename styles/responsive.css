@@ -627,7 +627,6 @@
 
   .section-services p {
     font-size: 1.8rem;
-    text-align: left;
   }
 
   ul {
@@ -649,12 +648,6 @@
   }
 }
 
-@media (max-width: 393px) {
-  .section-services p {
-    text-align: center;
-  }
-}
-
 @media(max-width: 375px) {
  
 
@@ -664,10 +657,6 @@
   .phones a,
   .address p {
     font-size: 1.6rem;
-  }
-
-  .section-services p {
-    text-align: left;
   }
 
   ul {
